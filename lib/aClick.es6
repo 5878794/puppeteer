@@ -14,7 +14,7 @@ module.exports = {
 			};
 
 			if(type){
-				browser.on('targetcreated',fn);
+				browser.once('targetcreated',fn);
 			}else{
 				browser.once('targetchanged',fn);
 			}
