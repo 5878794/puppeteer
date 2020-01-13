@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "yp": "babel-node ./yp.es6"
+    "yp": "babel-node ./yp.es6",
+    "baidu": "babel-node ./baidu.es6"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs": "0.0.1-security",
+    "iconv": "^2.3.5",
     "puppeteer": "^2.0.0"
   },
   "description": ""
